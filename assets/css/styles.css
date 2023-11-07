@@ -22,6 +22,11 @@ body {
 header {
   background-color: lightcyan;
 }
+
+h1 { 
+    font-family: 'Gabarito', sans-serif;
+}
+
 /* Main Content*/
 main {
   background-color: lightseagreen;
