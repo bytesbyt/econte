@@ -54,7 +54,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 0.5px solid #ffffff;
 }
 
 /* Navbar styles with droppdown toggle */
@@ -83,7 +83,7 @@ nav {
 
 /* Main Content*/
 main {
-  background-color: rgb(101, 144, 142);
+  background-color: rgb(227, 227, 227);
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
   margin-top: 56px;
@@ -92,4 +92,28 @@ main {
 /* Footer */
 footer {
   background-color: lightslategray;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 2rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
