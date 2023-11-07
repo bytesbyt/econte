@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   /* Generic project styles */
   color: #3a3a3a;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Gabarito', sans-serif;
 }
 
 /* Header */
@@ -29,7 +29,7 @@ header {
 
 header a{
     text-decoration: none;
-    color: inherit;
+    color: #ffffff;
 }
 
 h1 { 
@@ -39,12 +39,27 @@ h1 {
     color: #ffffff
 }
 
+#menu {
+    font-size : 120%;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 10px;
+}
+
+.active {
+    border-bottom: 1px solid #ffffff;
+}
+
 /* Main Content*/
 main {
   background-color: lightseagreen;
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
 }
+
 /* Footer */
 footer {
   background-color: lightslategray;
