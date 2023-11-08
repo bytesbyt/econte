@@ -124,6 +124,62 @@ main {
 
 .blog-img img{
     width: 100%;
+    padding:0 1rem;
+}
+/*
+.blog {
+    background: #8c4949;
+    padding: 4.5rem 0;
+}
+*/
+.blog-content {
+    margin: 2rem 0;
+}
+/*
+.blog-img {
+    position: relative;
+}
+*/
+.blog-text {
+    margin: 2.2rem 0;
+    padding:0 1rem;
+}
+
+.blog-text span {
+    font-family:"Poppin", sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding-bottom:0.5rem;
+}
+
+.blog-text h3{
+    padding: 1rem 0;
+    font-size: 1.65rem;
+    font-weight:500;
+}
+
+.blog-text p{
+    font-family:"Poppin", sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    padding-bottom:1.2rem;
+}
+
+.blog-text a{
+    font-family:"Gabarito", sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:#666666;
+    display: inline-block;
+    background: #666666;
+    color: #ffffff;
+    padding:0.55rem 1.2rem;
+    transition: all 0.5s ease;
+}
+
+.blog-text a:hover{
+    background:#0d0d0d;
 }
  
 /* Footer */
