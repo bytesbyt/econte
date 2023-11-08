@@ -122,8 +122,8 @@ main {
     position: relative;
   }
 
-.blog-img {
-    max-width: 100%
+.blog-img img{
+    width: 100%;
 }
  
 /* Footer */
