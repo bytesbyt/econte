@@ -114,14 +114,18 @@ main {
     color: #ffffff;
 }
 
-/* Blog Section */
+/* Blog Page */
 #banner {
     height: 600px;
     width: 100%;
     background: url("../images/banner.webp") no-repeat center center/cover;
     position: relative;
   }
-  
+
+.blog-img {
+    max-width: 100%
+}
+ 
 /* Footer */
 footer {
   background-color: black;
