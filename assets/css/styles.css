@@ -1,6 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Poppins:wght@300&family=Young+Serif&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Poppins:wght@300&family=Young+Serif&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -15,22 +14,22 @@ body {
   display: flex;
   flex-direction: column;
   /* Generic project styles */
-  color: #3a3a3a;
-  font-family: 'Gabarito', sans-serif;
+  color: #666666;
+  font-family: "Gabarito", sans-serif;
 }
 
-h1{ 
-    font-family: 'Young Serif', sans-serif;
-    letter-spacing: 3px;
-    color: #ffffff
+h1 {
+  font-family: "Young Serif", serif;
+  letter-spacing: 3px;
+  color: #ffffff;
 }
 
-h2, h3{
-    font-family: 'Gabarito', sans-serif;
-    letter-spacing: 1px;
-    color: black
+h2,
+h3 {
+  font-family: "Gabarito", sans-serif;
+  letter-spacing: 1px;
+  color: #666666;
 }
-
 
 /* Header */
 header {
@@ -44,47 +43,47 @@ header {
   align-items: baseline;
 }
 
-header a{
-    text-decoration: none;
-    color: #ffffff;
+header a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 #menu {
-    font-size : 120%;
-    list-style-type: none;
-    margin-top: 20px;
+  font-size: 120%;
+  list-style-type: none;
+  margin-top: 20px;
 }
 
 #menu > li {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .active {
-    border-bottom: 0.5px solid #ffffff;
+  border-bottom: 0.5px solid #ffffff;
 }
 
 /* Navbar styles with droppdown toggle */
 nav {
-    position: absolute;
-    background-color: black;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    display: none;
-    top: 100%;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  display: none;
+  top: 100%;
 }
 
 /* Nav toggle */
-#nav-toggle:checked~nav{
-    display: block;
+#nav-toggle:checked ~ nav {
+  display: block;
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /* Main Content*/
@@ -95,72 +94,87 @@ main {
 }
 /* Hero Section */
 #hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+  height: 600px;
+  width: 100%;
+  background: url("../images/hero-image.webp") no-repeat center center/cover;
+  position: relative;
 }
 
 #cover-text {
-    text-align: center;
-    margin: 3em 0 ;
+    font-size: 135%;
+    position: absolute;
+    bottom: 30px;
+    min-height: 200px;
+    padding-top:40px;
+    padding-left:20px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
 }
 /* Footer */
 footer {
   background-color: black;
 }
 #social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
-#social-networks i{
-    font-size: 160%;
-    padding: 5%;
-    color: #ffffff;
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #ffffff;
 }
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
+  /* Header */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
 
-    #menu {
-        display: flex;
-    }
+  #menu {
+    display: flex;
+  }
 
-    #menu > li {
-        padding-left: 2rem;
-    }
+  #menu > li {
+    padding-left: 2rem;
+  }
 
-    .nav-toggle-label {
-        display: none;
-    }
+  .nav-toggle-label {
+    display: none;
+  }
 
-    #logo {
-        font-size: 320%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
+  #logo {
+    font-size: 320%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
 
-    /* Main content */
-    main {
-        /* Push main content down to accomodate larger header */
-        margin-top: 90px;
-    }
+  /* Main content */
+  main {
+    /* Push main content down to accomodate larger header */
+    margin-top: 90px;
+  }
+
+  #cover-text {
+    font-size: 240%;
+    bottom: 50px;
+  }
 }
 /* Larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 0.5px solid #ffffff;
-    }
+  #menu a:hover {
+    border-bottom: 0.5px solid #ffffff;
+  }
+
+ 
 }
