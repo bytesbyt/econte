@@ -172,7 +172,7 @@ main {
     text-decoration: none;
     color:#666666;
     display: inline-block;
-    background: #666666;
+    background: #434343;
     color: #ffffff;
     padding:0.55rem 1.2rem;
     transition: all 0.5s ease;
@@ -239,12 +239,23 @@ footer {
     font-size: 240%;
     bottom: 50px;
   }
+
+  /* Blog page */
+  .blog-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+
 /* Larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 0.5px solid #ffffff;
   }
 
+ /* Blog page */
+  .blog-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
  
 }
