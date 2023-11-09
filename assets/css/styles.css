@@ -113,6 +113,26 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+/*About Section */
+.about{
+    padding: 4.5rem 0;
+}
+
+.about-content img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    padding:0 1rem;
+}
+.about-text{
+    margin-left: 10px;
+    margin-right:10px;
+    font-family:"Poppin", sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
 
 /* Blog Page */
 #banner {
@@ -250,6 +270,8 @@ footer {
   .blog-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    align-items: center;
   }
 }
 
@@ -257,6 +279,14 @@ footer {
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 0.5px solid #ffffff;
+  }
+
+  /* About section */
+  .about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    align-items: center;
   }
 
  /* Blog page */
