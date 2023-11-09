@@ -91,9 +91,7 @@ main {
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
   margin-top: 45px;
-  /* Enable flex properties for child elements */
-  display: flex;
-  flex-direction: column;
+
 }
 /* Hero Section */
 #hero {
@@ -272,13 +270,11 @@ main {
 }
 
 .left p{
-    font-family:"Poppin", sans-serif;
     color: white;
     text-align: center;
-    font-weight: 400;
+    font-size: 1em; 
 }
 
- 
 /* Footer */
 footer {
   background-color: black;
@@ -369,5 +365,4 @@ footer {
   .blog-content {
     grid-template-columns: repeat(3, 1fr);
   }
-
 }
