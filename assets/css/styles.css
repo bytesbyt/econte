@@ -213,13 +213,16 @@ main {
 
 #subscribe-form {
     color: black;
+    text-align:center;
     background-color: rgba(198, 198, 198, 0.6);
     padding: 30px;
+    max-width: 500px;
 }
 
 #subscribe-form>h2 {
     color:black;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
+      
 }
 
 .text-input {
@@ -240,6 +243,22 @@ main {
     font-size: 100%;
     background-color: black;
     color: #fafafa;
+}
+
+/*Subscribe page split page */
+.split-screen{
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    height: 200px;
+}
+
+.left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
  
