@@ -276,7 +276,7 @@ footer {
 }
 
 /* Larger devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px){
   #menu a:hover {
     border-bottom: 0.5px solid #ffffff;
   }
@@ -289,9 +289,14 @@ footer {
     align-items: center;
   }
 
+ .about-text{
+    font-weight: 300;
+    font-size: 1.5rem;
+    opacity: 0.9;
+ }
  /* Blog page */
   .blog-content {
     grid-template-columns: repeat(3, 1fr);
   }
- 
+
 }
