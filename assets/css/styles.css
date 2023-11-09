@@ -91,6 +91,9 @@ main {
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
   margin-top: 45px;
+  /* Enable flex properties for child elements */
+  display: flex;
+  flex-direction: column;
 }
 /* Hero Section */
 #hero {
