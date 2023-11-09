@@ -213,7 +213,6 @@ main {
 #subscribe-form {
     color: black;
     text-align:center;
-    background-color: rgba(198, 198, 198, 0.6);
     padding: 30px;
 }
 
@@ -277,8 +276,6 @@ main {
     color: white;
     text-align: center;
     font-weight: 400;
-
-
 }
 
  
