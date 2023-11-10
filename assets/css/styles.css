@@ -120,7 +120,9 @@ main {
   color: #ffffff;
 }
 /*About Section */
-
+.about-content {
+  padding-top: 3rem;
+}
 .about-content img {
   display: block;
   margin-left: auto;
@@ -129,12 +131,11 @@ main {
   padding: 1rem;
 }
 .about-text {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 1rem;
+  margin-right: 1rem;
   font-family: "Poppin", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
-  padding: 3rem;
 }
 
 /* Blog Page */
@@ -376,8 +377,12 @@ footer {
 }
 
 .about-text {
-  font-weight: 300;
+  font-weight: 300;s
   font-size: 1.5rem;
-  opacity: 0.9;
+  padding-left: 3rem;
+}
+
+.about-content {
+  padding-top: 15rem;
 }
 }
