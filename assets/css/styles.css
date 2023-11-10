@@ -14,13 +14,13 @@ body {
   display: flex;
   flex-direction: column;
   /* Generic project styles */
-  color: #666666;
+  color: black;
   font-family: "Gabarito", sans-serif;
 }
 
 h1 {
   font-family: "Young Serif", serif;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   color: #ffffff;
 }
 
@@ -111,8 +111,12 @@ main {
   padding-right: 20px;
 }
 
-#cover-text > h2,
-#cover-text > h3 {
+#cover-text > h2 {
+  color: #ffffff;
+  padding-bottom:3px;
+}
+
+#cover-text > h3{
   color: #ffffff;
 }
 /*About Section */
@@ -173,7 +177,7 @@ main {
 }
 .blog-text h3 {
   padding: 1rem 0;
-  font-size: 1.65rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
