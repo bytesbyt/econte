@@ -91,8 +91,8 @@ main {
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
   margin-top: 45px;
-
 }
+
 /* Hero Section */
 #hero {
   height: 600px;
@@ -204,9 +204,7 @@ main {
     (Not original work- Used external source: Love Running
     https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/)
 */
-#subscribe {
-   flex-grow: 1;
-}
+
 
 #subscribe-form {
     color: black;
@@ -216,12 +214,10 @@ main {
 
 #subscribe-form>h2 {
     color:black;
-    margin-bottom: 20px;
-      
+    margin-bottom: 20px; 
 }
 
 .text-input {
-    background: transparent;
     color: black; 
     width: 100%;
     height: 25px;
@@ -364,5 +360,17 @@ footer {
  /* Blog page */
   .blog-content {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .split-screen{
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  .left,
+  .right {
+    display: flex;
+    width: 50%;
+    height: auto;
   }
 }
