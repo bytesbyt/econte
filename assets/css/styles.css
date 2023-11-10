@@ -120,24 +120,21 @@ main {
   color: #ffffff;
 }
 /*About Section */
-.about {
-  padding: 4.5rem 0;
-}
 
 .about-content img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 98%;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 .about-text {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
   font-family: "Poppin", sans-serif;
   font-weight: 300;
-  font-size: 1.1rem;
-  opacity: 0.9;
+  font-size: 1.5rem;
+  padding: 3rem;
 }
 
 /* Blog Page */
