@@ -102,102 +102,103 @@ main {
 }
 
 #cover-text {
-    font-size: 180%;
-    position: absolute;
-    bottom: 30px;
-    min-height: 200px;
-    padding-top:40px;
-    padding-left:20px;
-    padding-right:20px;
+  font-size: 180%;
+  position: absolute;
+  bottom: 30px;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-#cover-text > h2, #cover-text > h3 {
-    color: #ffffff;
+#cover-text > h2,
+#cover-text > h3 {
+  color: #ffffff;
 }
 /*About Section */
-.about{
-    padding: 4.5rem 0;
+.about {
+  padding: 4.5rem 0;
 }
 
-.about-content img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 98%;
-    padding:0 1rem;
+.about-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  padding: 0 1rem;
 }
-.about-text{
-    margin-left: 10px;
-    margin-right:10px;
-    font-family:"Poppin", sans-serif;
-    font-weight: 300;
-    font-size: 1.1rem;
-    opacity: 0.9;
+.about-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Poppin", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  opacity: 0.9;
 }
 
 /* Blog Page */
 #banner {
-    height: 600px;
-    width: 100%;
-    background: url("../images/banner.webp") no-repeat center center/cover;
-    position: relative;
-  }
+  height: 600px;
+  width: 100%;
+  background: url("../images/banner.webp") no-repeat center center/cover;
+  position: relative;
+}
 
-.blog-img img{
-    width: 100%;
-    padding:0 1rem;
+.blog-img img {
+  width: 100%;
+  padding: 0 1rem;
 }
 
 .blog-content {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .blog-text {
-    margin: 2.2rem 0;
-    padding:0 1rem;
+  margin: 2.2rem 0;
+  padding: 0 1rem;
 }
 
 .blog-text span {
-    font-family:"Poppin", sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
-    padding-bottom:0.5rem;
+  font-family: "Poppin", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
 }
 
-.title h2{
-    text-align: center;
-    padding: 3rem 0 1rem 0;
-    font-size: 3rem;
-    font-weight:500;
+.title h2 {
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+  font-size: 3rem;
+  font-weight: 500;
 }
-.blog-text h3{
-    padding: 1rem 0;
-    font-size: 1.65rem;
-    font-weight:500;
-}
-
-.blog-text p{
-    font-family:"Poppin", sans-serif;
-    font-weight: 300;
-    font-size: 1.1rem;
-    opacity: 0.9;
-    padding-bottom:1.2rem;
+.blog-text h3 {
+  padding: 1rem 0;
+  font-size: 1.65rem;
+  font-weight: 500;
 }
 
-.blog-text a{
-    font-family:"Gabarito", sans-serif;
-    font-size: 1.1rem;
-    text-decoration: none;
-    color:#666666;
-    display: inline-block;
-    background: #434343;
-    color: #ffffff;
-    padding:0.55rem 1.2rem;
-    transition: all 0.5s ease;
+.blog-text p {
+  font-family: "Poppin", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  opacity: 0.9;
+  padding-bottom: 1.2rem;
 }
 
-.blog-text a:hover{
-    background:#0d0d0d;
+.blog-text a {
+  font-family: "Gabarito", sans-serif;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #666666;
+  display: inline-block;
+  background: #434343;
+  color: #ffffff;
+  padding: 0.55rem 1.2rem;
+  transition: all 0.5s ease;
+}
+
+.blog-text a:hover {
+  background: #0d0d0d;
 }
 
 /* Subscribe Page
@@ -205,70 +206,70 @@ main {
     https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/)
 */
 
-
 #subscribe-form {
-    color: black;
-    text-align:center;
-    padding: 30px;
+  color: black;
+  text-align: center;
+  padding: 30px;
 }
 
-#subscribe-form>h2 {
-    color:black;
-    margin-bottom: 20px; 
+#subscribe-form > h2 {
+  color: black;
+  margin-bottom: 20px;
 }
 
 .text-input {
-    color: black; 
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid black;
-    border-radius: 2px;   
-    padding: 0 5px;
+  color: black;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 0 5px;
 }
 
 .subscribe-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
-    font-size: 100%;
-    background-color: black;
-    color: #fafafa;
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px;
+  font-size: 100%;
+  background-color: black;
+  color: #fafafa;
 }
 
 /*Subscribe page split page */
-.split-screen{
-    display: flex;
-    flex-direction: column;
+.split-screen {
+  display: flex;
+  flex-direction: column;
 }
 
 .left {
-    height: 200px;
+  height: 200px;
 }
 
-.left, .right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .left {
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)),
-    url('../images/subscribebg.webp');
-    background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url("../images/subscribebg.webp");
+  background-size: cover;
 }
 
-.left h2{
-    color: white;
-    text-align: center;
-    font-size:2em;
-    margin-bottom:20px;
+.left h2 {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
-.left p{
-    color: white;
-    text-align: center;
-    font-size: 1em; 
+.left p {
+  color: white;
+  text-align: center;
+  font-size: 1em;
 }
 
 /* Footer */
@@ -339,7 +340,7 @@ footer {
 }
 
 /* Larger devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 0.5px solid #ffffff;
   }
@@ -352,17 +353,17 @@ footer {
     align-items: center;
   }
 
- .about-text{
+  .about-text {
     font-weight: 300;
     font-size: 1.5rem;
     opacity: 0.9;
- }
- /* Blog page */
+  }
+  /* Blog page */
   .blog-content {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  .split-screen{
+  /* Subscribe page */
+  .split-screen {
     flex-direction: row;
     height: 100vh;
   }
