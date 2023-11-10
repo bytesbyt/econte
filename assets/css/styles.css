@@ -345,19 +345,6 @@ footer {
     border-bottom: 0.5px solid #ffffff;
   }
 
-  /* About section */
-  .about-content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 3rem;
-    align-items: center;
-  }
-
-  .about-text {
-    font-weight: 300;
-    font-size: 1.5rem;
-    opacity: 0.9;
-  }
   /* Blog page */
   .blog-content {
     grid-template-columns: repeat(3, 1fr);
@@ -374,4 +361,22 @@ footer {
     width: 50%;
     height: auto;
   }
+}
+
+/* Larger devices (laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+ /* About section */
+ /* Moves written content to the right side of the image */
+ .about-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  align-items: center;
+}
+
+.about-text {
+  font-weight: 300;
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
 }
