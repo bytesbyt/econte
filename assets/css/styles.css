@@ -119,6 +119,18 @@ main {
 #cover-text > h3{
   color: #ffffff;
 }
+/*Video section*/
+
+.wrapper {
+  margin: 0 auto;
+  padding-top: 5em;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+
 /*About Section */
 
 .about-content img {
@@ -330,6 +342,15 @@ footer {
   #cover-text {
     font-size: 240%;
     bottom: 50px;
+  }
+  /* Video*/
+  /* Reduce video size and center the video */
+
+  video {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Blog page */
