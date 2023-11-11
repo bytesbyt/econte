@@ -120,22 +120,22 @@ main {
   color: #ffffff;
 }
 /*About Section */
-.about-content {
-  padding-top: 3rem;
-}
+
 .about-content img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 98%;
-  padding: 1rem;
+  width: 90%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .about-text {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   font-family: "Poppin", sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /* Blog Page */
@@ -148,7 +148,7 @@ main {
 
 .blog-img img {
   width: 100%;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 .blog-content {
