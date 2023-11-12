@@ -1,0 +1,1 @@
+https://github.com/bytesbyt/econte/blob/9429d22b9eac1c38d6653ff75f207fcefbfea066/media/econte_about.png
