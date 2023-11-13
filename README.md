@@ -4,7 +4,7 @@ Econte Lab is a blog site that hopes to create a platform where like-minded indi
 
 It is available to the whole world aiming to enrich other people’s lives by providing content that can help hone a positive outlook toward life.
 
-![Responsice Mockup](/assets/docs/econte_mockup.png)
+![Responsice Mockup](docs/econte_mockup.png)
 
 ## Features 
 
@@ -18,13 +18,20 @@ It is available to the whole world aiming to enrich other people’s lives by pr
   - THe navigation clearly tells the user the name of the club and website and makes the different sections of information easy to read.
 
 
- ![Navigation Bar](/assets/docs/econte_nav.png)
+ ![Navigation Bar](docs/econte_nav.png)
 
  - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the users of Econte with an eye catching animation to grab their attention
+  - This section introduces the users of Econte with an eye catching zoom effect animation to grab their attention
 
- ![Landing Page Image](/assets/docs/econte_landing.png)
+ ![Landing Page Image](docs/econte_landing.png)
+
+- __Video Section__
+
+  - The video section will visually inspire and encourage the user to consider yoga as their form of practice for mindful living.
+
+![Landing Page Image](docs/econte_video.png)
+
 
 
