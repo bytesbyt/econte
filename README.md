@@ -65,16 +65,61 @@ It is available to the whole world aiming to enrich other people’s lives by pr
 - In the future, I would like to implement a feature where users can view and signup for mindfulness classes (provided by thirt party) arounds the world.
 - Mindfulness classes such as meditation, soundbath and yoga etc. are the some of examples.
 
+## Testing
+
+ - Econte page works in differnet browsers: Chrome, Firefox, Safari 
+
+ - This website is responsive, looks good and functions on all standard screen sizes using the devtool device toolbar.
+
+ - Navigation menu will change to hamburger icon if viewed in smaller devices.
+
+ - THa navigation, home, blog, and subscribe text are all readable and easy to understand.
+
+ - Form in the subscribe page works: requires entries in every field, will only accept an email in the email field,  and the submit button works.
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- Accessibility
+  - Colors and fonts chosed are easy to read and accessible by running it throght lighthouse in devtools.
+![Light House](docs/econte_lighthouse.png)
+
+### Solved Bugs
+ 
+ - 
+
+ ### Unfixed Bugs
+
+No unfixed bugs
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://bytesbyt.github.io/econte/
 
 
+## Credits
+
+### Content 
+
+- The text for the Home page and blog articles was taken from [Mellio Obrien](https://melliobrien.com/)
+- The code to make the hero section was take from the [CI Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/)
+- The code to make the social media links was take from the [CI Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/)
+- The code to make the navigation was take from the [CI Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/)
+- The code to make subscibe page was take from the [CI Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/)
+- The hamburger icons in the navigation was taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 
+### Media
 
-
-
-
-
-
-
-
+- The photos used on the home, blog and subscibe pages are from [Pexels](https://www.pexels.com/)
+- The video used for the home page is from [Videvo](https://www.videvo.net/)
 
