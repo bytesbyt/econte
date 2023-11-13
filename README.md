@@ -18,51 +18,51 @@ It is available to the whole world aiming to enrich other people’s lives by pr
   - THe navigation clearly tells the user the name website and makes the different sections of information easy to read.
 
 
- ![Navigation Bar](docs/econte_nav.png)
+ ![Navigation Bar](assets/docs/econte_nav.png)
 
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the users of Econte with an eye catching zoom effect animation to grab their attention
+  - This section introduces the users of Econte with an eye catching zoom effect animation to grab their attention.
 
- ![Landing Page Image](docs/econte_landing.png)
+ ![Landing Page Image](assets/docs/econte_landing.png)
 
 - __Video Section__
 
   - The video section will visually inspire and encourage the user to consider yoga as their form of practice for mindful living.
 
-![Video Page](docs/econte_video.png)
+![Video Page](assets/docs/econte_video.png)
 
 - __About Section__
 
   - About section will allow the users to understand what is mindfulness and see the benefits of joining the community of mindfulness. 
-  - Users will see the value of signing up for the Econte blog subbcription.
+  - Users will see the value of signing up for the Econte blog subscription.
 
-![About section](docs/econte_about.png)
+![About section](assets/docs/econte_about.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites (Facebook, Youtube, Instagram) for Econte. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer section](docs/econte_footer.png)
+![Footer section](assets/docs/econte_footer.png)
 
 - __Blog Page__
 
   - The blog page will provide the users with thoughtful contents to uplevel their life, focusing on mindfulness and personal growth.
   - This section is valuable to the user as the contents will be able to provide valuble insight and tips on living mindfully.
 
-![Blog section](docs/econte_blog02.png)
+![Blog section](assets/docs/econte_blog02.png)
 
 - __Subscribe Page__
 
   - This page will allow the user to subscibe for a dose of inspiration for mindful living. The user will be asked to submit their first name, last name and email address. 
 
-![Subscribe page](docs/econte_subscribe.png)
+![Subscribe page](assets/docs/econte_subscribe.png)
 
 ### Features Left to Implement
 
-- In the future, I would like to implement a feature where users can view and signup for mindfulness classes (provided by thirt party) arounds the world.
+- In the future, I would like to implement a feature where users can view and signup for mindfulness classes (provided by third party) arounds the world.
 - Mindfulness classes such as meditation, soundbath and yoga etc. are the some of examples.
 
 ## Testing
@@ -89,7 +89,14 @@ It is available to the whole world aiming to enrich other people’s lives by pr
 
 ### Solved Bugs
  
- - 
+ - Split page function used for larger screens was not working.
+
+ - THis bug has been fixed by changing flex-direction in the media queries section to row from column.
+
+   .split-screen {
+    flex-direction: row;
+    height: 100vh;
+  }
 
  ### Unfixed Bugs
 
