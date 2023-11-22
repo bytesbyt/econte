@@ -81,8 +81,10 @@ It is available to the whole world aiming to enrich other people’s lives by pr
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+![HTML Validator](assets/docs/econte_lighthouse.png)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+![CSS Validator](assets/docs/econte_css_validator.png)
 - Accessibility
   - Colors and fonts chosed are easy to read and accessible by running it throght lighthouse in devtools.
 ![Light House](assets/docs/econte_lighthouse.png)
