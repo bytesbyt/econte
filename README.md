@@ -81,11 +81,11 @@ It is available to the whole world aiming to enrich other people’s lives by pr
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
-  Index page:
+   - Index page:
 ![HTML Validator1](assets/docs/econte_html_index_validator.png)
-  Blog page:
+   - Blog page:
 ![HTML Validator2](assets/docs/econte_html_blog_validator.png)
-  Subscribe page:
+   - Subscribe page:
 ![HTML Validator3](assets/docs/econte_html_subscribe_validator.png)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
