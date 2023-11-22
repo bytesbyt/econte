@@ -15,7 +15,7 @@ It is available to the whole world aiming to enrich other people’s lives by pr
   - Featured at the top of the page, the navigation shows the blog name in the left corner: Econte.
   - Featured on all three pages on the right, the full responsive navigation bar includes links to the Home, Blog and Subscibe page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-  - THe navigation clearly tells the user the name website and makes the different sections of information easy to read.
+  - The navigation clearly tells the user the name website and makes the different sections of information easy to read.
 
 
  ![Navigation Bar](assets/docs/econte_nav.png)
@@ -98,7 +98,7 @@ It is available to the whole world aiming to enrich other people’s lives by pr
  
  - Split page function used for larger screens was not working.
 
- - THis bug has been fixed by changing flex-direction in the media queries section to row from column.
+ - This bug has been fixed by changing flex-direction in the media queries section to row from column.
 
    .split-screen {
     flex-direction: row;
@@ -130,10 +130,12 @@ The live link can be found here - https://bytesbyt.github.io/econte/
 - The code to make subscibe page was take from the [CI Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/)
 - The hamburger icons in the navigation was taken from [Font Awesome](https://fontawesome.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The responsive mock up image in ReadMe has been produced using [AmIResponsive?] (https://ui.dev/amiresponsive)
 
 
 ### Media
 
 - The photos used on the home, blog and subscibe pages are from [Pexels](https://www.pexels.com/)
 - The video used for the home page is from [Videvo](https://www.videvo.net/)
+
 
