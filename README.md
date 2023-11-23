@@ -6,6 +6,28 @@ It is available to the whole world aiming to enrich other people’s lives by pr
 
 ![Responsive Mockup](assets/docs/econte_mockup.png)
 
+## Wireframes
+
+Mobile first wireframes were created to show the basic layout of the website using Figma. It can be viewed on [Figma](https://www.figma.com/file/tn31GmaDQI9G27byM7oohP/Untitled?type=design&node-id=0%3A1&mode=design&t=Xah0acr87TvzVzTs-1)
+
+- __Home Page__
+
+  - Wireframe image below shows top and bottom mobile view of the Home page.
+
+![Home Page](assets/docs/econte_wireframe_home.png)
+
+- __Blog Page__
+
+  - Wireframe image below shows top and bottom mobile view of the Blog page.
+
+![Blog Page](assets/docs/econte_wireframe_blog.png)
+
+- __Subscibe Page__
+
+  - Wireframe image below shows mobile view of the Subscribe page.
+
+![Subscribe Page](assets/docs/econte_wireframe_subscribe.png)
+
 ## Features 
 
 ### Existing Features
