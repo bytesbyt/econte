@@ -8,7 +8,7 @@ It is available to the whole world aiming to enrich other people’s lives by pr
 
 ## Wireframes
 
-Mobile first wireframes were created to show the basic layout of the website using Figma. It can be viewed on [Figma](https://www.figma.com/file/tn31GmaDQI9G27byM7oohP/Untitled?type=design&node-id=0%3A1&mode=design&t=Xah0acr87TvzVzTs-1)
+Mobile first wireframes were created to show the basic layout of the website using Figma. This can be viewed on [Figma](https://www.figma.com/file/tn31GmaDQI9G27byM7oohP/Untitled?type=design&node-id=0%3A1&mode=design&t=Xah0acr87TvzVzTs-1)
 
 - __Home Page__
 
