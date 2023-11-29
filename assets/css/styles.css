@@ -106,7 +106,7 @@ main {
   width: 100%;
   position: relative;
 }
-
+/* Hero Image */
 #hero-image {
   height: 600px;
   width: 100%;
@@ -157,8 +157,8 @@ video {
   width: 100%;
 }
 
-/*About Section */
-
+/*About Section in Home page */
+/* About Section image */
 .about-content img {
   display: block;
   margin-left: auto;
@@ -167,6 +167,7 @@ video {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+/* About section text */
 .about-text {
   margin-left: auto;
   margin-right: auto;
@@ -177,6 +178,7 @@ video {
 }
 
 /* Blog Page */
+/* Blog Page banner image*/
 #banner {
   height: 600px;
   width: 100%;
@@ -211,6 +213,7 @@ video {
   font-size: 3rem;
   font-weight: 500;
 }
+
 .blog-text h3 {
   padding: 1rem 0;
   font-size: 1.8rem;
@@ -276,7 +279,7 @@ video {
   color: #fafafa;
 }
 
-/*Subscribe page split page */
+/*Subscribe page split page function*/
 .split-screen {
   display: flex;
   flex-direction: column;
@@ -292,7 +295,7 @@ video {
   justify-content: center;
   align-items: center;
 }
-
+/* Add image and a layer of black on top of the image */
 .left {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
     url("../images/subscribebg.webp");
@@ -320,6 +323,7 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/
 footer {
   background-color: black;
 }
+
 #social-networks {
   text-align: center;
   padding: 20px 0;
